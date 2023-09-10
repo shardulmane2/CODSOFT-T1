@@ -106,10 +106,6 @@ def sin():
     l.delete(0, END)
 
 
-
-
-
-
 btn1=Button(t,text="1",padx=40,pady=20,command= lambda: clk(1),bg="lightgreen")
 btn2=Button(t,text="2",padx=40,pady=20,command= lambda: clk(2),bg="lightgreen")
 btn3=Button(t,text="3",padx=40,pady=20,command= lambda: clk(3),bg="lightgreen")
