@@ -1,13 +1,13 @@
+
 from tkinter import*
 import math
+
+
 t=Tk()
 t.title("Simple Calculator")
 t.config(bg="Black")
-
 l=Entry(t,width="65",borderwidth="4",bg="lightblue")
 l.grid(row=0,column=0,columnspan=7,padx=10,pady=10)
-
-
 
 def clk(number):
     a=l.get()
